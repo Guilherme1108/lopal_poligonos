@@ -1,14 +1,16 @@
 package br.com.engSenai;
 
-import br.com.engsenai.model.Quadrado;
+import br.com.engSenai.ui.Menu;
 
 public class FormasGeometricas {
 	
-public static void main(String[] args) {
-		
-		Quadrado quadrado = new Quadrado();
-		quadrado.setLado(2);
-		
-		quadrado.mostrarDados();
+    public static void main(String[] args) {
+    	
+
+    	
+	    Menu.mostrarMenu();
 
 }
+
+}
+
