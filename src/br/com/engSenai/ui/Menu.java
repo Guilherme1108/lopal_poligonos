@@ -2,8 +2,11 @@ package br.com.engSenai.ui;
 
 import java.util.Scanner;
 
+import br.com.engSenai.dao.CircunferenciaDao;
 import br.com.engSenai.dao.QuadradoDao;
 import br.com.engSenai.dao.RetanguloDao;
+import br.com.engSenai.dao.TrapezioDao;
+import br.com.engSenai.dao.TrianguloDao;
 
 public class Menu {
 	
@@ -28,7 +31,13 @@ public class Menu {
 			QuadradoDao.criarQuadrado();
 		} else if(opcao == 2) {
 			RetanguloDao.criarRetangulo();
-		} else {
+		} else if(opcao == 3) {
+			TrapezioDao.criarTrapezio();
+		} else if(opcao == 4) {
+			CircunferenciaDao.criarCircuferencia();
+		} else if(opcao == 5)
+			TrianguloDao.criarTriangulo();
+		 else {
 			System.out.println("Esta opção ainda não foi adicionada.");
 		}
 		leitor.close();

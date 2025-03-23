@@ -10,8 +10,8 @@ public class QuadradoDao {
 		Quadrado quadrado = new Quadrado();
 		
 		System.out.println();
-		System.out.println("Criando um objeto quadrado...");
-		System.out.print("Informe o lado do quadrado:");
+		System.out.println("Criando um objeto Quadrado...");
+		System.out.print("Informe o lado do Quadrado:");
 		
 		
 		// Criar um objeto scanner

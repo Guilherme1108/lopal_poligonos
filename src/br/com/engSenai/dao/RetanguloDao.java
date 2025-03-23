@@ -10,8 +10,8 @@ public class RetanguloDao {
 		Retangulo retangulo = new Retangulo();
 		
 		System.out.println();
-		System.out.println("Criando um objeto retângulo...");
-		System.out.print("Informe o lado do retângulo:");
+		System.out.println("Criando um objeto Retângulo...");
+		System.out.print("Informe o lado do Retângulo:");
 		
 		
 		// Criar um objeto scanner
