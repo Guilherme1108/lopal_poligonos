@@ -3,6 +3,7 @@ package br.com.engSenai.dao;
 import java.util.Scanner;
 
 import br.com.engSenai.model.Triangulo;
+import br.com.engSenai.ui.Menu;
 
 public class TrianguloDao {
 	
@@ -19,6 +20,8 @@ public class TrianguloDao {
 		triangulo.setAltura(leitor.nextDouble());
 		
 		triangulo.mostrarDados();
+		
+		Menu.continuar(leitor, "Guilherme");
 		
 		leitor.close();
 		

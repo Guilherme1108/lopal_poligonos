@@ -1,7 +1,7 @@
 package br.com.engSenai.dao;
 
+import br.com.engSenai.ui.Menu;
 import java.util.Scanner;
-
 import br.com.engSenai.model.Retangulo;
 
 public class RetanguloDao {
@@ -20,15 +20,16 @@ public class RetanguloDao {
 		retangulo.setLado(leitor.nextDouble());
 		
 		System.out.print("Informe a base do retângulo:");
-		Scanner leitor2 = new Scanner(System.in);
 		
-		retangulo.setBase(leitor2.nextDouble());
+		retangulo.setBase(leitor.nextDouble());
 		
 		retangulo.mostrarDados();
 		
+		Menu.continuar(leitor, "Guilherme");
+		
 		// Fechar o objeto scanner, remover da memória
 		leitor.close();
-		leitor2.close();
+	
 
     }
 }

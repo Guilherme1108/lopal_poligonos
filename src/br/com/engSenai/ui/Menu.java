@@ -42,5 +42,20 @@ public class Menu {
 		}
 		leitor.close();
 	}
+	
+	public static void continuar(Scanner leitor, String nome) {
+		
+		String resposta = "";
+		
+		while (!resposta.equals("c") || !resposta.equals("s")) {
+			System.out.print(nome + ", Digite C para continuar, ou S para sair... ");
+			resposta = leitor.next();
+			
+		}
+		
+		if (resposta.equalsIgnoreCase("s")) {
+			Menu.mostrarMenu();
+		}
+	}
 
 }

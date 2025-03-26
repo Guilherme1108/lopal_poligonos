@@ -3,6 +3,7 @@ package br.com.engSenai.dao;
 import java.util.Scanner;
 
 import br.com.engSenai.model.Trapezio;
+import br.com.engSenai.ui.Menu;
 
 public class TrapezioDao {
 	
@@ -24,6 +25,8 @@ public class TrapezioDao {
 		trapezio.setAltura(leitor.nextDouble());
 		
 		trapezio.mostrarDados();
+		
+		Menu.continuar(leitor, "Guilherme");
 		
 		leitor.close();
 	}

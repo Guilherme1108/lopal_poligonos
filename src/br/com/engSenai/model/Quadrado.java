@@ -10,7 +10,7 @@ public class Quadrado {
 
 	}
 
-	public double calcularArea() {
+	private double calcularArea() {
 
 	double area = Math.pow(lado, 2);
 
@@ -18,7 +18,7 @@ public class Quadrado {
 
 	}
 
-	public double calcularPerimetro() {
+	private double calcularPerimetro() {
 
 	double perimetro = lado * 4;
 

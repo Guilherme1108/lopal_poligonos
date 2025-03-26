@@ -1,7 +1,7 @@
 package br.com.engSenai.dao;
 
 import java.util.Scanner;
-
+import br.com.engSenai.ui.Menu;
 import br.com.engSenai.model.Quadrado;
 
 public class QuadradoDao {
@@ -21,8 +21,8 @@ public class QuadradoDao {
 		
 		quadrado.mostrarDados();
 		
-		// Fechar o objeto scanner, remover da memória
-		leitor.close();
+		Menu.continuar(leitor, "Guilherme");
+		
 	}
-
+		
 }

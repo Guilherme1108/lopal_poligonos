@@ -3,6 +3,7 @@ package br.com.engSenai.dao;
 import java.util.Scanner;
 
 import br.com.engSenai.model.Circunferencia;
+import br.com.engSenai.ui.Menu;
 
 public class CircunferenciaDao {
 	
@@ -18,6 +19,7 @@ public class CircunferenciaDao {
 		circunferencia.setRaio(leitor.nextDouble());
 		circunferencia.mostrarDados();
 		
+		Menu.continuar(leitor, "Guilherme");
 
 		leitor.close();
 		
